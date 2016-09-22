@@ -23,21 +23,31 @@ to Windows.
 ### Client (Windows)
 
 pywin32 [Download and install](http://sourceforge.net/projects/pywin32/)
+
 nghttp2 [My own personal hack](https://gist.github.com/rfmcpherson/3697969c5a518eeeaf0a)
 
 ### Server (Linux)
 
 ffmpeg [So annoying to get right](https://gist.github.com/rfmcpherson/f24aca04e77afe78ad623bf286c9266b) <- Install instructions may be out of date.
+
 ghost.py `sudo pip install Ghost.py`
 
 ### Both
 
 numpy           Linux: `sudo apt-get install python3-numpy`
+
                 [Windows](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy)
+                
+                
 cv2             Linux: `sudo apt-get install python3-opencv`
+
                 [Windows](http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv)
+                
+                
 PIL             `sudo pip install Pillow`
+
 reedsolo        `sudo pip install reedsolo`
+
 bitstring       `sudo pip install bitstring`
 
 
