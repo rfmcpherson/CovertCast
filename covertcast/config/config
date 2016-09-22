@@ -1,0 +1,9 @@
+[Storage]
+container=/Users/amir/FV/
+#container=/home/amir/FV/
+[Logging]
+log=debug
+[Proxy]
+ip=127.0.0.1
+port=8080
+

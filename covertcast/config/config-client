@@ -1,0 +1,13 @@
+[Storage]
+container=C:\Users\richard\svn\win\FV-con\
+containerImg1=C:\Users\richard\svn\win\client-write\
+containerImg2=C:\Users\richard\svn\win\client-read\
+
+#container=/home/amir/FV/
+cache=C:\Users\richard\svn\win\cache\
+[Logging]
+log=debug
+[Proxy]
+ip=127.0.0.1
+port=1080
+

@@ -1,0 +1,12 @@
+[Storage]
+provider=S3
+user=User ID
+key=Secret Key
+container=cloudbridge
+[Proxy]
+ip=127.0.0.1
+port=8080
+[Bridge]
+log=warning
+init_poll=0.3
+connection_poll=0.1

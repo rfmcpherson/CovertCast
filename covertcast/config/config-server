@@ -1,0 +1,17 @@
+[Storage]
+container=C:\Users\richard\svn\win\FV-server\
+#containerImg1=C:\Users\richard\svn\win\client-read\
+#containerImg1=C:\Users\richard\svn\win\server-write\
+containerImg2=C:\Users\richard\svn\win\server-read\
+#container=/home/poe/svn/voip-win/FV-server/
+containerImg1=/home/richard/svn/voip-cs/server-write/
+#containerImg2=/home/poe/svn/voip-win/server-read/
+cache=NotUsed
+
+#container=/home/amir/FV/
+[Logging]
+log=debug
+[Proxy]
+ip=127.0.0.1
+port=1080
+
