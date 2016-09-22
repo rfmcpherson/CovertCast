@@ -34,16 +34,10 @@ ghost.py `sudo pip install Ghost.py`
 
 ### Both
 
-numpy           Linux: `sudo apt-get install python3-numpy`
+numpy           `sudo apt-get install python3-numpy` ([Windows](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy))
 
-                [Windows](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy)
-                
-                
-cv2             Linux: `sudo apt-get install python3-opencv`
+cv2             `sudo apt-get install python3-opencv` ([Windows](http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv))
 
-                [Windows](http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv)
-                
-                
 PIL             `sudo pip install Pillow`
 
 reedsolo        `sudo pip install reedsolo`
@@ -106,13 +100,21 @@ Some various utility functions.
 Code used in the modulation and demodulation of data and video.
 
 `clientframes2data.py` converts individual images to data
+
 `clientvideo2frames.py` converts video to individual frames
+
 `functions.py` modulates/demodulates data (or metadata) from a frame
+
 `modulate.py` deals with metadata and calls functions.py for frames/data
+
 `parameters.py` hardcoded parameters
+
 `servervideo.py` used to help create images and save them for ffmpeg
+
 `tests.py` tests stuff
+
 `valid_image.py` tests if a CovertCast image is valid
+
 `video_helper_functions.py` lots of little things
 
 #### web
@@ -124,8 +126,11 @@ the main page of a news site and then iterate through the linked stories,
 sending one of them at a time.
 
 The folder README covers a lot of important stuff
+
 `fake*` are versions used for testing
+
 `h2*` are newer versions of the web code. You should use these
+
 `h2guides` picks what stories to read
 
 ### screenscraper
